@@ -1,7 +1,5 @@
 package conpectos;
 
-import java.net.PortUnreachableException;
-
 public class Empleado {
 
 	private String nombre;
@@ -24,6 +22,9 @@ public class Empleado {
 	}
 	
 	public Empleado (String nom, double sou, String seccio){
+		this.nombre=nom;
+		this.sueldo=sou;
+		this.seccion=seccio;
 		
 	}
 	
@@ -61,7 +62,5 @@ public class Empleado {
 	public void setSueldo(double sueldo) {
 		this.sueldo = sueldo;
 	}
-	
-	
 	
 }

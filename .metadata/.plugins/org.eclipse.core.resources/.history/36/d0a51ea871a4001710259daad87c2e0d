@@ -1,0 +1,41 @@
+package conpectos;
+
+public class Jefe extends Empleado {
+
+	double incentivo;
+	
+	
+	
+	public Jefe() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public Jefe(String nom, double sou, String seccio, double incentiu) {
+		super(nom, sou, seccio);
+		this.incentivo=incentiu;
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public Jefe(String nom, double sou, String seccio) {
+		super(nom, sou, seccio);
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+	public Jefe(String nom, double sou) {
+		super(nom, sou);
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+	public void EstableceInventivo(){
+		
+	}
+	
+	
+}

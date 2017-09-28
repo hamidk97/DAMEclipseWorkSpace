@@ -1,0 +1,51 @@
+package conpectos;
+
+import java.util.ArrayList;
+
+public class Uso_Empleado {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int[] emp = new int[5];
+
+		Empleado[] e = new Empleado[3];
+
+		for (int i = 0; i < 3; i++) {
+
+			e[1] = new Empleado("peep", 1000);
+			e[2] = new Empleado();
+
+		}
+
+		System.out.println(e[1].dameSueldo());
+
+		e[1].subeSueldo(20);
+
+		System.out.println(e[1].dameSueldo());
+
+		System.out.println("Emp2: " + e[2].dameNombre());
+
+		// Empleado emp1 = new Empleado("Pepe", 132.15);
+		// Empleado emp2 = new Empleado();
+		// Empleado emp3 = new Empleado();
+
+		// System.out.println(emp1.dameSeccion());
+
+		// emp2.setSueldo(100);
+		// System.out.println("sueldo emp2 anterior: " +emp2.dameSueldo());
+		// emp2.subeSueldo(15);
+
+		// System.out.println("sueldo emp2 sueldo: " + emp2.dameSueldo());
+		
+		Jefe j1=new Jefe("pep", 1000.00, "jefe", 1.00);
+		//j1.setSueldo(1000);
+		//j1.EstableceIncentivo(100);
+		//
+		System.out.println("j1 sueldo: " + j1.dameSueldo());
+	}
+
+}
