@@ -11,12 +11,19 @@ public class Empleado {
 	private double sueldo;
 	
 	public Empleado () {
+		this.nombre = "Anna";
+		this.sueldo = 20000.00;
+		this.seccion = "Administracio";
 	}
 
 	public Empleado (String nom, double sou){
 		this.nombre = nom;
 		this.sueldo = sou;
 		this.seccion = "Admin";
+		
+	}
+	
+	public Empleado (String nom, double sou, String seccio){
 		
 	}
 	
